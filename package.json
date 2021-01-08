@@ -1,0 +1,23 @@
+{
+  "name": "node-baidu-translate-pf",
+  "version": "1.0.4",
+  "main": "dist/main.js",
+  "license": "MIT",
+  "bin": {
+    "fy": "dist/cli.js"
+  },
+  "files": [
+    "dist/**/*.js"
+  ],
+  "scripts": {
+    "start": "ts-node-dev src/main.ts"
+  },
+  "dependencies": {
+    "commander": "^6.2.1",
+    "md5": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/md5": "^2.2.1",
+    "@types/node": "^14.14.20"
+  }
+}
